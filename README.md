@@ -2,12 +2,24 @@
 
 Self-hosted tools for Plex and the \*arr stack, plus Homebrew taps and Docker images.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/engels74/github-stats/generated/overview.svg#gh-dark-mode-only">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/engels74/github-stats/generated/overview.svg#gh-light-mode-only">
+  <img alt="GitHub statistics overview" src="https://raw.githubusercontent.com/engels74/github-stats/generated/overview.svg#gh-light-mode-only">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/engels74/github-stats/generated/languages.svg#gh-dark-mode-only">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/engels74/github-stats/generated/languages.svg#gh-light-mode-only">
+  <img alt="GitHub language statistics" src="https://raw.githubusercontent.com/engels74/github-stats/generated/languages.svg#gh-light-mode-only">
+</picture>
+
 ## Released
 
 | Project | What it is | Docker |
 | --- | --- | --- |
 | [EasyHDR](https://github.com/engels74/EasyHDR) | Windows tray app. Turns HDR on when a configured app starts, and off when it closes | — |
-| [mover-status](https://github.com/engels74/mover-status) | One Bash script for Unraid. Posts mover progress to Discord or Telegram while the cache drains | [mover-status-docker](https://github.com/engels74/mover-status-docker) |
+| [mover-status](https://github.com/engels74/mover-status) | One Bash script for Unraid. Posts mover progress to Discord or Telegram while the cache drains | — |
 | [obzorarr](https://github.com/engels74/obzorarr) | Year in review for Plex — "Spotify Wrapped", as a story-mode slideshow or a scrollable recap. Reads the Plex API, no Tautulli | [obzorarr-docker](https://github.com/engels74/obzorarr-docker) |
 | [wings-vpn](https://github.com/engels74/wings-vpn) | Fork of Pelican's Wings. Adds `docker.network.network_mode`, so game servers share another container's network namespace — a VPN, for example | — |
 
@@ -17,7 +29,7 @@ Expect breaking changes.
 
 | Project | What it is | Docker |
 | --- | --- | --- |
-| [otpravkarr](https://github.com/engels74/otpravkarr) | Provisions Plex users into [Dispatcharr](https://github.com/Dispatcharr/Dispatcharr) and serves each user their own IPTV credentials and playlist | [otpravkarr-docker](https://github.com/engels74/otpravkarr-docker) (`:nightly`) |
+| [otpravkarr](https://github.com/engels74/otpravkarr) | Provisions Plex users into [Dispatcharr](https://github.com/Dispatcharr/Dispatcharr) and serves each user their own IPTV credentials and playlist | [otpravkarr-docker](https://github.com/engels74/otpravkarr-docker) |
 | [zondarr](https://github.com/engels74/zondarr) | Invite and user manager for Plex and Jellyfin, an alternative to Wizarr. Wizard steps around the invite: clicks, timers, ToS, text input, quizzes | [zondarr-docker](https://github.com/engels74/zondarr-docker) |
 
 ## WIP, not yet functional
@@ -58,20 +70,6 @@ docker pull ghcr.io/engels74/<image>
 | [qbittorrent](https://github.com/engels74/qbittorrent) | libtorrent v2 by default, plus the themes hotio dropped (VueTorrent) |
 | [qflood](https://github.com/engels74/qflood) | jesec's flood + qBittorrent, libtorrent v2 by default. hotio archived his |
 | [sabnzbd](https://github.com/engels74/sabnzbd) | SABnzbd with `ffprobe`, for post-processing scripts |
-
-## GitHub stats
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/engels74/github-stats/generated/overview.svg#gh-dark-mode-only">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/engels74/github-stats/generated/overview.svg#gh-light-mode-only">
-  <img alt="GitHub statistics overview" src="https://raw.githubusercontent.com/engels74/github-stats/generated/overview.svg#gh-light-mode-only">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/engels74/github-stats/generated/languages.svg#gh-dark-mode-only">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/engels74/github-stats/generated/languages.svg#gh-light-mode-only">
-  <img alt="GitHub language statistics" src="https://raw.githubusercontent.com/engels74/github-stats/generated/languages.svg#gh-light-mode-only">
-</picture>
 
 ---
 
