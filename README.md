@@ -42,19 +42,19 @@ Expect breaking changes.
 
 ## Homebrew taps
 
-A workflow checks upstream every 6 hours, re-hosts the release here, updates the cask, and appends a VirusTotal report.
+One tap, [homebrew-taps](https://github.com/engels74/homebrew-taps), for macOS apps that homebrew-cask does not carry. A workflow checks upstream every 6 hours, re-hosts the release there, updates the cask, and appends a VirusTotal report.
 
 ```bash
-brew install --cask engels74/<tap>/<app>
+brew install --cask engels74/taps/<app>
 ```
 
-| Tap | Installs |
+| App | What it is |
 | --- | --- |
-| [homebrew-fcast-sender](https://github.com/engels74/homebrew-fcast-sender) | [FCast Sender](https://fcast.org/) — cast video and audio to any FCast receiver |
-| [homebrew-flixor](https://github.com/engels74/homebrew-flixor) | [Flixor](https://github.com/Flixorui/flixor) — Plex client with a Netflix-like UI |
-| [homebrew-fredtv](https://github.com/engels74/homebrew-fredtv) | [Fred TV](https://github.com/Fredolx/open-tv) — IPTV app, formerly Open TV |
-| [homebrew-paicord](https://github.com/engels74/homebrew-paicord) | [Paicord](https://github.com/llsc12/Paicord) — native macOS Discord client |
-| [homebrew-qview](https://github.com/engels74/homebrew-qview) | [qView](https://github.com/jurplel/qView) — minimal image viewer |
+| [FCast Sender](https://fcast.org/) | Cast video and audio to any FCast receiver |
+| [Flixor](https://github.com/Flixorui/flixor) | Plex client with a Netflix-like UI |
+| [Fred TV](https://github.com/Fredolx/open-tv) | IPTV app, formerly Open TV |
+| [Paicord](https://github.com/llsc12/Paicord) | Native macOS Discord client |
+| [qView](https://github.com/jurplel/qView) | Minimal image viewer |
 
 ## Docker images
 
@@ -73,4 +73,4 @@ docker pull ghcr.io/engels74/<image>
 
 ---
 
-<sub>Last edited: 2026-08-15</sub>
+<sub>Last edited: 2026-09-04</sub>
