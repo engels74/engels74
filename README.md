@@ -44,17 +44,13 @@ Expect breaking changes.
 
 One tap, [homebrew-taps](https://github.com/engels74/homebrew-taps), for macOS apps that homebrew-cask does not carry. A workflow checks upstream every 6 hours, re-hosts the release there, updates the cask, and appends a VirusTotal report.
 
-```bash
-brew install --cask engels74/taps/<app>
-```
-
-| App | What it is |
+| App | Install |
 | --- | --- |
-| [FCast Sender](https://fcast.org/) | Cast video and audio to any FCast receiver |
-| [Flixor](https://github.com/Flixorui/flixor) | Plex client with a Netflix-like UI |
-| [Fred TV](https://github.com/Fredolx/open-tv) | IPTV app, formerly Open TV |
-| [Paicord](https://github.com/llsc12/Paicord) | Native macOS Discord client |
-| [qView](https://github.com/jurplel/qView) | Minimal image viewer |
+| [FCast Sender](https://fcast.org/) | `brew install --cask engels74/taps/fcast-sender` |
+| [Flixor](https://github.com/Flixorui/flixor) | `brew install --cask engels74/taps/flixor` |
+| [Fred TV](https://github.com/Fredolx/open-tv) | `brew install --cask engels74/taps/fredtv` |
+| [Paicord](https://github.com/llsc12/Paicord) | `brew install --cask engels74/taps/paicord` |
+| [qView](https://github.com/jurplel/qView) | `brew install --cask engels74/taps/qview` |
 
 ## Docker images
 
@@ -73,4 +69,4 @@ docker pull ghcr.io/engels74/<image>
 
 ---
 
-<sub>Last edited: 2026-09-04</sub>
+<sub>Last edited: 2026-09-06</sub>
