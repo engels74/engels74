@@ -9,10 +9,9 @@ The remote is `engels74/engels74` — a GitHub profile repository, so `README.md
 renders directly on <https://github.com/engels74>. Every README change is
 immediately public-facing.
 
-Tracked content is three files: `README.md`, `renovate.json`, and `LICENSE`
-(AGPL-3.0). There is no source code, package manifest, build step, test suite,
-linter, or CI workflow — do not go looking for one. Validation here is reading
-the rendered Markdown, not running a toolchain.
+Content is Markdown and the AGPL-3.0 license. There is no application build or
+runtime test suite. [CI.md](CI.md) documents the read-only prek validation,
+shared CI gate and Renovate policy for workflow and hook dependencies.
 
 ## The stats images live in another repository
 
@@ -56,7 +55,5 @@ enforces it.
 tuning. Change it only as part of a deliberate fleet-wide update; a local-only
 edit silently drifts this repo away from the rest of the fleet.
 
-The repository has no dependency manifests, so Renovate has nothing to update
-here — an untouched `renovate.json` is the expected steady state, not a bug. The
-`gitIgnoredAuthors` entries let Renovate resume auto-rebasing after those bots
-push commits.
+Renovate updates CI action versions and prek hook revisions through the shared
+versioned preset. It does not regenerate the profile stats images.
