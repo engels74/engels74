@@ -5,8 +5,8 @@ repository.
 
 ## What this repository is
 
-The remote is `engels74/engels74` — a GitHub profile repository, so `README.md`
-renders directly on <https://github.com/engels74>. Every README change is
+The remote is `edbfi/edbfi` — a GitHub profile repository, so `README.md`
+renders directly on <https://github.com/edbfi>. Every README change is
 immediately public-facing.
 
 Content is Markdown and the AGPL-3.0 license. There is no application build or
@@ -15,14 +15,14 @@ shared CI gate and Renovate policy for workflow and hook dependencies.
 
 ## The stats images live in another repository
 
-`README.md` embeds two SVGs served from `engels74/github-stats`, branch
+`README.md` embeds two SVGs served from `edbfi/github-stats`, branch
 `generated`:
 
 - `.../github-stats/generated/overview.svg`
 - `.../github-stats/generated/languages.svg`
 
 Nothing here produces, stores, or can alter them. To change what the stats
-measure or how they are styled, work in `engels74/github-stats`; only the
+measure or how they are styled, work in `edbfi/github-stats`; only the
 embedding markup is editable here.
 
 ### Embedding rules
