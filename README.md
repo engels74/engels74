@@ -37,6 +37,18 @@ Expect breaking changes.
 | [comradarr](https://github.com/edbfi/comradarr) | Finds missing or upgradeable content across Sonarr, Radarr, and Whisparr, then requests it |
 | [zimuarr](https://github.com/edbfi/zimuarr) | Subtitle translation for Bazarr. A translation is provably complete, or it did not happen |
 
+## Homebrew taps
+
+One tap, [homebrew-taps](https://github.com/edbfi/homebrew-taps), for macOS apps that homebrew-cask does not carry. A workflow checks upstream every 6 hours, re-hosts the release there, proposes cask updates for full CI and manual review, and appends a VirusTotal report when configured.
+
+| App | Install |
+| --- | --- |
+| [FCast Sender](https://fcast.org/) | `brew install --cask edbfi/taps/fcast-sender` |
+| [Flixor](https://github.com/Flixorui/flixor) | `brew install --cask edbfi/taps/flixor` |
+| [Fred TV](https://github.com/Fredolx/open-tv) | `brew install --cask edbfi/taps/fredtv` |
+| [Paicord](https://github.com/llsc12/Paicord) | `brew install --cask edbfi/taps/paicord` |
+| [qView](https://github.com/jurplel/qView) | `brew install --cask edbfi/taps/qview` |
+
 ## Docker images
 
 Forks of [hotio](https://github.com/hotio)'s images, with extra features.
