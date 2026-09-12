@@ -36,6 +36,7 @@ Expect breaking changes.
 | --- | --- |
 | [comradarr](https://github.com/edbfi/comradarr) | Finds missing or upgradeable content across Sonarr, Radarr, and Whisparr, then requests it |
 | [zimuarr](https://github.com/edbfi/zimuarr) | Subtitle translation for Bazarr. A translation is provably complete, or it did not happen |
+| [mover-status](https://github.com/edbfi/mover-status) | Monitors Unraid Mover progress and sends notifications |
 
 ## Homebrew taps
 
