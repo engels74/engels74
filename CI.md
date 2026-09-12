@@ -12,7 +12,9 @@ Run `SKIP=no-commit-to-branch prek run --all-files` locally with prek 0.5.2.
 Use `prek install` for local checks and `prek install --hook-type commit-msg` for
 Conventional Commit validation. The local branch hook is skipped in CI.
 
-Automerge remains off until strict protection and corrected shared policy are activated.
+Automerge is disabled. No branch protections or rulesets are configured.
+Manually review exact head/base, full diff, author/DCO, all expected CI jobs and
+relevant artifacts before merging through the maintainer's `ghmerge` function.
 
 Content checks do not prove prose accuracy, external-service availability, or
 application behavior. No application build or placeholder tests are introduced.
